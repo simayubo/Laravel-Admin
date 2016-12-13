@@ -16,7 +16,7 @@ class UsersTableSeeder extends Seeder
         $userRole = Role::where('name','user')->first();
         $admin = factory('App\Admin')->create([
             'name' => 'admin',
-            'email' => 'simayubo@gmail.com',
+            'email' => 'admin@admin.com',
             'password' => bcrypt('123456')
         ])->each(function($u) use ($adminRole){
             // $u->roles()->attach([$admin->id]);

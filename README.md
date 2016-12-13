@@ -12,9 +12,11 @@ $(document).on("pjax:timeout", function(event) {
     event.preventDefault()
 });
 ```
+后台登录地址：http://xxxx.com/admin  默认账号密码：admin@admin.com  123456
 ## 安装方法
 1. 下载到本地，或者`git clone`
 2. 执行`composer install`
+3. 修改配置文件中`.env`中的数据库信息
 3. 执行迁移`php artisan migrate`
 4. 填充数据`php artisan db:seed`
 
