@@ -1,4 +1,5 @@
 > Laravel学习
+
 ## 后台管理系统
 Laravel+inspinia_admin
 使用`zizaco/entrust`控制后台权限，前后台用户分表处理，使用`dingo/api`和`jwt-auth`开发api，简单的使用了`pjax`，不喜欢的可以在`/public/js/admin-commin.js`中注释
