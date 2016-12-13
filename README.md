@@ -17,6 +17,7 @@ $(document).on("pjax:timeout", function(event) {
 2. 执行`composer install`
 3. 执行迁移`php artisan migrate`
 4. 填充数据`php artisan db:seed`
+
 ## 使用到的包
 ```json
 "barryvdh/laravel-ide-helper":"dev-master",
